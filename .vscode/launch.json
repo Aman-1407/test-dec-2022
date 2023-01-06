@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch HelloWorldApplication",
+            "request": "launch",
+            "mainClass": "com.example.helloworld.HelloWorldApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorldController",
+            "request": "launch",
+            "mainClass": "com.example.helloworld.controller.HelloWorldController",
+            "projectName": "spring-boot-2-hello-world"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HelloWorldApplication<spring-boot-2-hello-world>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.helloworld.HelloWorldApplication",
+            "projectName": "spring-boot-2-hello-world",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=54265 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=spring-boot-2-hello-world"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HelloWorldApplication<spring-boot-hello-world>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.helloworld.HelloWorldApplication",
+            "projectName": "spring-boot-hello-world",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
