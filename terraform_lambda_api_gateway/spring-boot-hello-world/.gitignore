@@ -11,7 +11,6 @@
 *.rar
 
 # Generated Sources
-
-
+*.json
 # IDE Files
 .idea
